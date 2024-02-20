@@ -1,0 +1,36 @@
+.container--state {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #007c7a;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 40%;
+    
+}
+
+.Icon--conenction{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite; /* Apply pulse animation */
+}
+
+.connection--status{
+    font-size: 30px;
+    font-weight: lighter;
+    color : white;
+    margin-left: 10px;
+
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+    }
+    50% {
+        opacity: 0.8; /* Semi-transparent */
+        scale: 1.5;
+    }
+}

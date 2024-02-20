@@ -1,0 +1,14 @@
+.Select--Container{
+    background-color: #542f8c;
+    margin: 20px;
+    height: 40px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.select-options{
+    height: 40px;
+    width: 310px;
+    outline: none;
+    border-radius: 10px;
+}
